@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+body{
+    background-image: url(imagens/back-phone.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+header > h1{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px orange;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+main{
+    margin: auto;
+    min-width: 320px;
+    max-width: 730px;
+}
+fieldset{
+    background-color: rgba(0, 0, 255, 0.404);
+    margin: auto;
+    border-radius: 10px 10px 10px 10px;
+}
+fieldset > h1{
+    color: whitesmoke;
+    font-size: 30px;
+    text-shadow: 2px 2px 2px greenyellow;
+   
+}
+fieldset > p > label{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+form{
+    text-align: center;   
+}
+fieldset > p > input{
+    border-radius: 10px 10px 10px 10px;
+    padding: 5px;
+    
+}
