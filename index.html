@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media query</title>
+    <link rel="stylesheet" href="style.css" media="all">
+    <link rel="stylesheet" href="outros.css">
+</head>
+<body>
+    <header>
+        <h1>MEDIA QUERY</h1>
+    </header>
+    <main>
+        <form action="cadastro.php">
+            <fieldset>  
+                         <h1>CADASTRE-SE</h1>
+                <p>
+                    <label for="nome">NOME</label>
+                    <input type="text" name="name" id="nome" autocomplete="off" required minlength="5" maxlength="50" placeholder="seu nome">
+                </p>
+                 <p>
+                    <label for="sobrenome">SOBRENOME</label>
+                    <input type="text" name="snome" id="sobrenome" autocomplete="off" required minlength="5" maxlength="50" placeholder="seu sobrenome">
+                 </p>
+                 <p>
+                    <label for="email">E-mail</label>
+                    <input type="email" name="Email" id="email" autocomplete="off" required minlength="5" maxlength="50" placeholder="seuemail@exemplo.com">
+                 </p>
+                 <p>
+                    <label for="usuario">USUÁRIO</label>
+                    <input type="text" name="user" id="usuario" autocomplete="off" required minlength="5" maxlength="50" placeholder="crie um usuário">
+                    <p>
+                     <label for="senha">SENHA</label>
+                     <input type="password" name="pass" id="senha" autocomplete="off" required minlength="8" maxlength="20">
+                    </p>
+                    <p>
+                        <input type="submit" value="CRIAR">
+                        <input type="reset" value="LIMPAR">
+                    </p>
+            </fieldset>
+
+        </form>
+
+    </main>
+</body>
+</html>
